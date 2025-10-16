@@ -21,7 +21,7 @@ This project analyzes a dataset of books to create an intelligent recommendation
 
 ## 📋 Prerequisites
 
-- Python 3.8+
+- Python 3.11+
 - Virtual environment (recommended)
 - GPU support (optional, but recommended for faster processing)
 
@@ -220,20 +220,16 @@ Book recommender/
 │   ├── sentiment-analysis.ipynb        # Emotion & sentiment analysis
 │   └── vector_search.ipynb             # Semantic search implementation
 │
-├── 📊 Data Files
 │   ├── books_cleaned.csv               # Cleaned input dataset
 │   ├── books_with_categories.csv       # Dataset with categories
 │   ├── books_with_emotions.csv         # Final dataset with emotions
 │   └── tagged_description.txt          # Processed descriptions
 │
-├── 🐍 Python Files
 │   └── gradio-dashboard.py             # Interactive web interface
 │
-├── ⚙️ Configuration
 │   ├── requirements.txt                # Python dependencies
 │   └── .env                           # Environment variables
 │
-└── 📖 Documentation
     └── README.md                       # This file
 ```
 
@@ -296,7 +292,7 @@ torch
 
 ```bash
 # 1. Clone and setup
-git clone <your-repo-url>
+git clone (https://github.com/samuel-fatman/AI-book-recommendation-system.git)
 cd "Book recommender"
 python3.11 -m venv .venv-3.11
 source .venv-3.11/bin/activate
@@ -331,8 +327,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@samuelfatman](https://github.com/samuel-fatman)
+- Email: t.haque.ju@gmail.com
 
 ---
 
@@ -344,25 +340,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📞 Support
-
-If you encounter any issues or have questions:
-1. Check existing Issues
-2. Create a new issue with detailed information
-3. Contact the maintainers
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Add more emotion categories
-- [ ] Implement collaborative filtering
-- [ ] Add user ratings integration
-- [ ] Deploy dashboard to cloud
-- [ ] Add API endpoints
-- [ ] Multi-language support
-
----
 
 **⭐ If you find this project helpful, please consider giving it a star!**
 
